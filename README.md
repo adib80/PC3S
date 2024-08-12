@@ -1,4 +1,4 @@
-### **Personalized EV Charging Station Selection System (PC3S)**
+### **Personalized EV Charging Station Selection Scheme (PC3S)**
 As electric vehicles (EVs) maintain to benefit recognition for its environmental blessings and cost financial savings, the want for a green and personalized charging experience has emerge as more and more vital. However, with the developing quantity of charging stations, selecting the right one which meets your precise desires may be quite hard. That's wherein our Personalized Charging Station Selection System (PC3S) comes in.
 
 PC3S is designed to simplify the process of finding the best charging station for you by taking into account what really matters—whether it’s distance, cost, waiting time, charging time or available amenities. By combining advanced decision-making techniques like Fuzzy Analytic Hierarchy Process (FAHP) for weighting process to be transferred to the second process which is the recommendation process, we’re able to tailor recommendations that are just right for you, even if your preferences aren’t set in stone.
@@ -11,3 +11,8 @@ What sets PC3S apart is its ability to handle uncertainty in user preferences th
 1. **Multi-Attributes Decision-Making:** PC3S takes into account multiple user-defined criteria like travel distance, waiting time, charging time, pricing, and amenities. (These criteria my be extended to add more criteria).
 2. **Fuzzy Logic Integration weighting process:** Allows handling uncertainties in user preferences. 
 3. **EVCS Recommendation:** Provides a ranked list of EVCS options according to the calculated criteria weights.
+
+
+### **Dataset**
+
+The study utilized a data obtained from the official website of the US Department of Energy. The dataset consisted of information on electric vehicle charging stations situated in US. The dataset provides valuable information about the characteristics and attributes of these charging stations encompassing details such as their geographic coordinates, unique identification numbers, types of charging connectors available, charging speeds, pricing structures, and other relevant details. Due to limited availability of data on waiting times, random generation techniques were employed to simulate waiting time values. The research involved conducting experiments under various scenarios, considering a range of 2 to 50 charging stations within the vicinity of the electric vehicle. The vehicle's location on a map was also selected randomly. Travel times to each charging station were computed based on an average speed of 60 km/h. The experiments were repeated 100 times to ensure statistical reliability, and the outcomes were averaged to provide more robust results.
