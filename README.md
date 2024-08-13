@@ -16,3 +16,15 @@ What sets PC3S apart is its ability to handle uncertainty in user preferences th
 ### **Dataset**
 
 The study utilized a data obtained from the official website of the US Department of Energy. The dataset consisted of information on electric vehicle charging stations situated in US. The dataset provides valuable information about the characteristics and attributes of these charging stations encompassing details such as their geographic coordinates, unique identification numbers, types of charging connectors available, charging speeds, pricing structures, and other relevant details. Due to limited availability of data on waiting times, random generation techniques were employed to simulate waiting time values. The research involved conducting experiments under various scenarios, considering a range of 2 to 50 charging stations within the vicinity of the electric vehicle. The vehicle's location on a map was also selected randomly. Travel times to each charging station were computed based on an average speed of 60 km/h. The experiments were repeated 100 times to ensure statistical reliability, and the outcomes were averaged to provide more robust results.
+
+
+### **Conclusion**
+
+
+PC3S affords a comprehensive and user-centric approach to Electric Vehicle Charging Station (EVCS) selection, leveraging advanced Multi-Attributes Decision-Making (MADM) techniques together with Fuzzy logic Analytic Hierarchy Process (FAHP) incorporated with the weighting process and Technique for Order of Preference by using Similarity to Ideal Solution (TOPSIS) incorporated with the recommendation process. We have evolved a strong scheme that tailors charging station recommendations based totally on user preferences, making sure that the selected EVCS meets the particular preferences of each person user.
+
+Compared to different methods obtainable, our model stands out for its accuracy and reliability, specifically in keeping solid rankings and reducing errors. By incorporating normalization and fuzzy logic, our system could make well-knowledgeable decisions, even if customers are not totally sure about their choices.
+
+We've made our dataset and code available here on GitHub to guide similarly studies and development within the EV charging infrastructure field. We wish that others within the community will discover our work, provide comments, and build on it to make EV charging extra green and user satisfaction.
+
+Our aim is to contribute to the developing adoption of electric cars through enhancing the way charging stations are selected, ultimately making sustainable transportation greater accessible and convenient for all of us.
